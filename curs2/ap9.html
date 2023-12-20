@@ -9,12 +9,18 @@
     <script>
         let n = prompt(`Numarul este`, 15);
         let suma = 0;
+        let produs = 1;
         for (let i = 1; i <= n; i++) {
             if(i % 2 == 0) {
                 suma += i;
             }
+            else {
+                produs = produs * i;
+            }
         }
         console.log(suma);
+        console.log(produs);
+
     </script>
 </body>
 </html>
