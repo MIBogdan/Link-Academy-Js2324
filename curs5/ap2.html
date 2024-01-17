@@ -14,10 +14,16 @@
     </style>
 
     <h1 id="demo">Titlu</h1>
+    <div>
     <p id="demo">Primul Paragraf</p>
+    <p id="demo">Primul Paragraf</p>
+    <p id="demo">Primul Paragraf</p>
+    <p id="demo">Primul Paragraf</p>
+    <p id="demo">Primul Paragraf</p>
+    </div>
 
     <script>
-        let paragraf = document.getElementById('demo');
+        let paragraf = document.querySelector('p:last-child');
         paragraf.innerHTML = "<b>Salut</b>";
         
     </script>
