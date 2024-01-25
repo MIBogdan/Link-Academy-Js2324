@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const ourNames = ["Paul", "Ion", "Dan", "Adi"];
+      ourNames.push("Mihai", "Ana"); //push adauga valorile (in cazul nostru numele) intr-un array existent LA SFARSIT
+      ourNames.unshift("Popescu", "Lavinia"); //unshift adauga elemente in array LA INCEPUT
+      console.log(ourNames);
+
+      let sliced = ourNames.slice(2, 5); //aceasta ia toate valorile in range-ul selectat de noi si le afisteaza pe toate, adica de la 2 la 5 o sa afiseze 2,3 si 4.
+    
+      
+      console.log(sliced);
+
+      console.log(ourNames.sort(function (a, b) {
+        return (a.length - b.length);
+      }));
+
+    </script>
+  </body>
+</html>
