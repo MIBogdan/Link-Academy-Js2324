@@ -44,4 +44,4 @@ window.onload = function () {
 
 document.getElementById('list').addEventListener('dblclick', function(event) {
     
-})
+});
